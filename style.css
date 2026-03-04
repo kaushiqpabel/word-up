@@ -552,7 +552,7 @@ input:-webkit-autofill{
 
 .btn--main {
   background-color: var(--color-main);
-  color: bg;
+  color: var(--color-bg);
 }
 
 
