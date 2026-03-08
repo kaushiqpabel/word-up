@@ -368,7 +368,7 @@ input:-webkit-autofill{
   top: calc(100% - 15px);
   left: 0;
   right: 0;
-  border: 1.5px solid var(--color-dark-light);
+  border: 2px solid var(--color-dark-light);
   border-radius: 4px;
   max-height: 150px;
   overflow-y: auto;
