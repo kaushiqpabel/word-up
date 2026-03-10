@@ -585,6 +585,7 @@ input:-webkit-autofill{
 
   .main-container {
     min-height: 100svh;
+    margin-top: 0;
   }
 
  
@@ -653,6 +654,7 @@ input:-webkit-autofill{
 @media (max-width: 30em) {
   .main-container {
     padding: 5rem 0.5em 2rem 0.5rem;
+    margin-top: 0;
   }
   .section {
     padding: 1.5rem 0.75rem;
