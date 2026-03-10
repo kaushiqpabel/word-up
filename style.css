@@ -82,6 +82,11 @@ input:-webkit-autofill{
 
 .primary-navigation {
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0; right: 0;
+  z-index: 1111;
+  height: 86px;
   gap: 1.75rem;
   list-style: none; 
   margin: 0;
@@ -135,6 +140,7 @@ input:-webkit-autofill{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 86px;
   min-height: calc(100svh - 86px);
   overflow: hidden;
   padding: 2em;
@@ -572,7 +578,6 @@ input:-webkit-autofill{
     inset: 0 0 0 30%;
     flex-direction: column;
     padding: min(30vh, 10rem) 2em;
-    z-index: 1111;
     transform: translateX(100%);
     transition: 350ms ease-out;
     background: rgba(0,0,0,.95);
