@@ -143,7 +143,7 @@ input:-webkit-autofill{
   margin-top: 86px;
   min-height: calc(100svh - 86px);
   overflow: hidden;
-  padding: 2em;
+  padding: 2rem;
 }
 
 
@@ -230,7 +230,7 @@ input:-webkit-autofill{
 
 .login-form {
   max-width: 500px;
-  margin-top: 83px;
+  margin-top: -86px;
 }
 
 
@@ -576,6 +576,7 @@ input:-webkit-autofill{
     --gap: 2em;
     position: fixed;
     inset: 0 0 0 30%;
+    height: 100%;
     flex-direction: column;
     padding: min(30vh, 10rem) 2em;
     transform: translateX(100%);
@@ -585,6 +586,10 @@ input:-webkit-autofill{
 
   .main-container {
     min-height: 100svh;
+    margin-top: 0;
+  }
+
+  .login-form {
     margin-top: 0;
   }
 
@@ -653,8 +658,7 @@ input:-webkit-autofill{
 
 @media (max-width: 30em) {
   .main-container {
-    padding: 5rem 0.5em 2rem 0.5rem;
-    margin-top: 0;
+    padding: 2rem 0.5em;
   }
   .section {
     padding: 1.5rem 0.75rem;
