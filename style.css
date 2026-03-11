@@ -659,12 +659,12 @@ input:-webkit-autofill{
 @media (max-width: 30em) {
   .main-container {
     padding: 2rem 0.5em;
-    min-height: calc(100svh - 2rem);
-    margin-top: 2rem;
+    min-height: calc(100svh - 3rem);
+    margin-top: 3rem;
   }
 
   .login-form {
-    margin-top: -2rem;
+    margin-top: -3rem;
   }
   .section {
     padding: 1.5rem 0.75rem;
